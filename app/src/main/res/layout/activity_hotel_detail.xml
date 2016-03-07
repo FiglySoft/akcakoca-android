@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical">
+
+    <include
+        layout="@layout/view_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="192dp"
+                android:id="@+id/detail_image"
+                android:src="@drawable/hotel_icon"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/margin_medium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detail_name_textview"
+                android:text="Detail Name"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_small">
+
+                <TextView
+                    android:id="@+id/detail_address_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address_label"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/margin_large"/>
+
+                <TextView
+                    android:id="@+id/detail_address_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Address"
+                    android:layout_toRightOf="@+id/detail_address_label"
+                    android:layout_alignTop="@+id/detail_address_label"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/detail_phone_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_label"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/detail_address_textview"
+                    android:layout_marginTop="@dimen/margin_small"/>
+
+                <TextView
+                    android:id="@+id/detail_phone_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Phone"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="16sp"
+                    android:layout_alignLeft="@+id/detail_address_textview"
+                    android:layout_alignTop="@+id/detail_phone_label"/>
+
+
+                <TextView
+                    android:id="@+id/detail_email_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_label"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/detail_phone_textview"
+                    android:layout_marginTop="@dimen/margin_small"/>
+
+                <TextView
+                    android:id="@+id/detail_email_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail E-Mail"
+                    android:textSize="16sp"
+                    android:layout_alignLeft="@+id/detail_address_textview"
+                    android:layout_alignTop="@+id/detail_email_label"/>
+
+                <TextView
+                    android:id="@+id/detail_web_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/web_label"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/detail_email_textview"
+                    android:layout_marginTop="@dimen/margin_small"/>
+
+                <TextView
+                    android:id="@+id/detail_web_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Web"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="16sp"
+                    android:layout_alignLeft="@+id/detail_address_textview"
+                    android:layout_alignTop="@+id/detail_web_label"/>
+
+            </RelativeLayout>
+
+            <fragment
+                android:id="@+id/map"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                tools:layout="@layout/activity_hotel_detail" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

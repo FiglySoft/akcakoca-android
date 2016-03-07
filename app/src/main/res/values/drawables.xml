@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Hotels' Pictures -->
+    <string-array name="hotels_pictures" formatted="false">
+        <item>@drawable/bayraktarotel</item>
+        <item>@drawable/diapolisotel</item>
+        <item>@drawable/esentepeotel</item>
+        <item>@drawable/mesenotel</item>
+        <item>@drawable/otelakcakoca</item>
+        <item>@drawable/otelakcasehir</item>
+        <item>@drawable/otelvadi</item>
+        <item>@drawable/sezginotel</item>
+        <item>@drawable/skytowerotel</item>
+        <item>@drawable/tuanabeachotel</item>
+        <item>@drawable/turkuazbeachotel</item>
+        <item>@drawable/yenicinarotel</item>
+        <item>@drawable/yilmazotel</item>
+    </string-array>
+
+    <!--Resorts' Pictures -->
+    <string-array name="resort_pictures" formatted="false">
+        <item>@drawable/alsatatilkoyu</item>
+    </string-array>
+
+    <!--Hostels' Pictures -->
+    <string-array name="hostels_pictures" formatted="false">
+        <item>@drawable/akcakocaogretmenevi</item>
+        <item>@drawable/baharpansiyon</item>
+        <item>@drawable/besyildizapart</item>
+        <item>@drawable/camlikpansiyon</item>
+        <item>@drawable/canapart</item>
+        <item>@drawable/demirpansiyon</item>
+        <item>@drawable/denizfeneri</item>
+        <item>@drawable/diapolisapartlari</item>
+        <item>@drawable/doguspansiyon</item>
+        <item>@drawable/emelpansiyon</item>
+        <item>@drawable/hostelmimoza</item>
+        <item>@drawable/karpansiyon</item>
+        <item>@drawable/mutlupansiyon</item>
+        <item>@drawable/namepansiyon</item>
+        <item>@drawable/hostels_icon</item>
+        <item>@drawable/hostels_icon</item>
+        <item>@drawable/prestijapart</item>
+        <item>@drawable/saglampansiyon</item>
+        <item>@drawable/sahilpansiyon</item>
+        <item>@drawable/sahinpansiyon</item>
+        <item>@drawable/tuncpansiyon</item>
+    </string-array>
+
+    <!--Hotels' Pictures -->
+    <string-array name="restaurants_pictures" formatted="false">
+        <item>@drawable/akbey_restaurant</item>
+        <item>@drawable/bahce_restaurant</item>
+        <item>@drawable/capa_restaurant</item>
+        <item>@drawable/cardak_restaurant</item>
+        <item>@drawable/efran_restaurant</item>
+        <item>@drawable/hamsi_restaurant</item>
+        <item>@drawable/iskele_restaurant</item>
+        <item>@drawable/kamelya_restaurant</item>
+        <item>@drawable/piri_restaurant</item>
+        <item>@drawable/turkuaz_restaurant</item>
+        <item>@drawable/barinak_lokanta</item>
+        <item>@drawable/bolu_lokanta</item>
+        <item>@drawable/cafe_mutfak</item>
+        <item>@drawable/restaurant_icon</item>
+        <item>@drawable/dalyan_lokantasi</item>
+        <item>@drawable/restaurant_icon</item>
+        <item>@drawable/restaurant_icon</item>
+        <item>@drawable/restaurant_icon</item>
+        <item>@drawable/hulyam_lokantasi</item>
+        <item>@drawable/kantin_pide</item>
+        <item>@drawable/mengen_lokanta</item>
+        <item>@drawable/mustafanin_lokanta</item>
+        <item>@drawable/omur_lokanta</item>
+        <item>@drawable/ozkardesler_lokanta</item>
+        <item>@drawable/yakamoz_lokanta</item>
+    </string-array>
+
+    <string-array name="cafes_pictures" formatted="false">
+        <item>@drawable/altyazi_cafe</item>
+        <item>@drawable/bahce_cafe</item>
+        <item>@drawable/cadde_cafe</item>
+        <item>@drawable/cinar_cafe</item>
+        <item>@drawable/degirmen_cafe</item>
+        <item>@drawable/erdeniz_cafe</item>
+        <item>@drawable/karamel_cafe</item>
+        <item>@drawable/kardelen_cafe</item>
+        <item>@drawable/kosem_cafe</item>
+        <item>@drawable/cafe_icon</item>
+        <item>@drawable/rocca_cafe</item>
+        <item>@drawable/sahane_cafe</item>
+        <item>@drawable/turan_cafe</item>
+        <item>@drawable/cafe_icon</item>
+        <item>@drawable/undankale</item>
+    </string-array>
+
+    <string-array name="beaches_pictures" formatted="false">
+        <item>@drawable/akevler</item>
+        <item>@drawable/akkaya</item>
+        <item>@drawable/beach_icon</item>
+        <item>@drawable/cuhalli</item>
+        <item>@drawable/degirmenagzi</item>
+        <item>@drawable/edilliagzi</item>
+        <item>@drawable/kadinlar</item>
+        <item>@drawable/kalkin</item>
+        <item>@drawable/karaburun</item>
+        <item>@drawable/kale</item>
+        <item>@drawable/beach_icon</item>
+        <item>@drawable/pasalar</item>
+        <item>@drawable/beach_icon</item>
+    </string-array>
+
+    <string-array name="bars_pictures" formatted="false">
+        <item>@drawable/bistrobinon</item>
+        <item>@drawable/cakilbar</item>
+        <item>@drawable/catibar</item>
+        <item>@drawable/cafe_icon</item>
+        <item>@drawable/horonbar</item>
+        <item>@drawable/marinabar</item>
+    </string-array>
+
+    <string-array name="mustsee_pictures" formatted="false">
+        <item>@drawable/ceneviz</item>
+        <item>@drawable/kurugol</item>
+        <item>@drawable/mehmetarif</item>
+        <item>@drawable/ozkok</item>
+        <item>@drawable/sariyayla</item>
+        <item>@drawable/must_see_icon</item>
+    </string-array>
+
+    <string-array name="historical_places_pictures" formatted="false">
+        <item>@drawable/hemsin</item>
+        <item>@drawable/orhangazi</item>
+    </string-array>
+
+    <string-array name="hospitals_pictures" formatted="false">
+        <item>@drawable/akcakoca_hospital</item>
+        <item>@drawable/akcakoca_first_health</item>
+        <item>@drawable/akcakoca_second_health</item>
+    </string-array>
+
+    <string-array name="pharmacy_pictures" formatted="false">
+        <item>@drawable/akcakoca_eczane</item>
+        <item>@drawable/pharmacy_icon</item>
+        <item>@drawable/cuhalli_eczanesi</item>
+        <item>@drawable/hayat_eczanesi</item>
+        <item>@drawable/karadeniz_eczanesi</item>
+        <item>@drawable/pharmacy_icon</item>
+        <item>@drawable/nimet_eczanesi</item>
+        <item>@drawable/seckin_eczanesi</item>
+    </string-array>
+
+    <string-array name="transportation_pictures" formatted="false">
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+        <item>@drawable/ulasim</item>
+    </string-array>
+
+    <string-array name="emergency_pictures" formatted="false">
+        <item>@drawable/akcakoca_first_health</item>
+        <item>@drawable/akcakoca_second_health</item>
+        <item>@drawable/akcakoca_belediye</item>
+        <item>@drawable/akcakoca_hospital</item>
+        <item>@drawable/akcakoca_kaymakamligi</item>
+        <item>@drawable/akcakoca_itfaiye</item>
+        <item>@drawable/akcakoca_jandarma</item>
+        <item>@drawable/akcakoca_emniyet</item>
+        <item>@drawable/akcakoca_veteriner</item>
+    </string-array>
+
+</resources>

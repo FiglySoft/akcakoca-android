@@ -1,0 +1,1183 @@
+<resources>
+
+    <string name="app_name">Akçakoca Şehir Rehberi</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Detail Page labels -->
+
+    <string name="address_label">Adres:</string>
+    <string name="phone_label">Telefon:</string>
+    <string name="email_label">E-Posta:</string>
+    <string name="web_label">Web:</string>
+
+    <!-- Alert Dialog Messages & Titles -->
+
+    <string name="alert_dialog_call_number_message">Telefon numarasını aramak istiyor musunuz?</string>
+    <string name="alert_dialog_web_site_message">Web sitesine yönlendirilmek istiyor musunuz?</string>
+    <string name="alert_dialog_internet_message">Web sitesine erişmek için internet bağlantısı gerekmektedir.</string>
+    <string name="alert_dialog_warning_label">Uyarı!</string>
+    <string name="alert_dialog_ok_button">Tamam</string>
+    <string name="alert_dialog_cancel_button">İptal</string>
+    <string name="please_wait_message">Lütfen Bekleyiniz...</string>
+    <string name="president_message_title">Başkanın Mesajı</string>
+
+    <!-- Başkan'ın Mesajı -->
+    <string name="presidents_message_text">Değerli Misafirimiz;\n\nEn yakın Karadeniz’e hoş geldiniz…\n\nBir tarafı yeşilin bin bir tonu, bir tarafı engin mavi olan; huzurun doğa ile buluştuğu Karadeniz
+
+coğrafyasında geçireceğiniz anların keyfini daha da çıkarabilmeniz ve tatilinizi daha etkili planlayabilmeniz
+
+için Akçakoca Şehir Rehberi’ni oluşturduk.\n\nTatiliniz boyunca ihtiyacınız olabilecek tüm konaklama tesisleri, restoranlar, ulaşım firmaları, tarihi ve
+
+doğal güzellikler ile sağlık/devlet kuruluşlarını kolaylıkla ulaşıp, ücretsiz olarak incelemenize olanak
+
+sağlayan bir aplikasyon tasarladık. Bu mobil uygulama ile şehrin tüm rehberine tek dokunuş uzaklığında
+
+olacaksınız.\n\nKaradeniz’in muhteşem güzellikleri içerisinde keyifle güzel anılar biriktirmeniz dileği ile…\n\nEcz. Cüneyt Yemenici\n\nAkçakoca Belediye Başkanı</string>
+
+
+    <!-- Menu Items -->
+    <string-array name="main_menu_items" formatted="false" >
+        <item>Şehir</item>
+        <item>Tarihi Mekanlar</item>
+        <item>Görmeden Geçme</item>
+        <item>Sağlık</item>
+        <item>Ulaşım</item>
+        <item>Acil Numaralar</item>
+        <item>Harita</item>
+        <item>Hakkımızda</item>
+    </string-array>
+
+    <string-array name="cities_menu_items" formatted="false" >
+        <item>Oteller</item>
+        <item>Restorantlar</item>
+        <item>Cafe - Barlar</item>
+        <item>Plajlar</item>
+    </string-array>
+
+    <string-array name="health_menu_items" formatted="false" >
+        <item>Hastaneler</item>
+        <item>Eczaneler</item>
+    </string-array>
+
+    <!-- Spinner Array Items -->
+    <string-array name="spinner_items" formatted="false" >
+        <item>Oteller</item>
+        <item>Tatil Köyleri</item>
+        <item>Pansiyonlar</item>
+        <item>Restoranlar</item>
+        <item>Cafeler</item>
+        <item>Barlar</item>
+        <item>Plajlar</item>
+        <item>Tarihi Mekanlar</item>
+        <item>Görmeden Geçme</item>
+        <item>Hastaneler</item>
+        <item>Eczaneler</item>
+    </string-array>
+
+    <!-- Activity labels -->
+
+    <string name="title_city_activity">Şehir</string>
+    <string name="title_hotels_activity">Oteller</string>
+    <string name="title_restaurants_activity">Restorantlar</string>
+    <string name="title_cafes_activity">Cafeler</string>
+    <string name="title_bars_activity">Barlar</string>
+    <string name="title_beaches_activity">Plajlar</string>
+    <string name="title_historical_places_activity">Tarihi Mekanlar</string>
+    <string name="title_must_see_activity">Görmeden Geçme</string>
+    <string name="title_health_activity">Sağlık</string>
+    <string name="title_hospitals_activity">Hastaneler</string>
+    <string name="title_pharmacies_activity">Eczaneler</string>
+    <string name="title_transportation_activity">Ulaşım</string>
+    <string name="title_emergency_activity">Acil Numaralar</string>
+    <string name="title_map_activity">Harita</string>
+    <string name="title_about_us_activity">Hakkımızda</string>
+    <string name="title_resorts_activity">Tatil Köyleri</string>
+    <string name="title_hostels_activity">Pansiyonlar</string>
+    <string name="title_cafesmenu_activity">Cafe-Bar</string>
+    <string name="title_caves_activity">Mağaralar</string>
+    <string name="title_mosques_activity">Camiler</string>
+
+    <!-- sos' Names Array -->
+
+    <string-array name="emergency_names">
+        <item>1 Nolu Sağlık Ocağı</item>
+        <item>2 Nolu Sağlık Ocağı</item>
+        <item>Akçakoca Belediyesi</item>
+        <item>Akçakoca Devlet Hastanesi</item>
+        <item>Akçakoca Kaymakamlığı</item>
+        <item>Akçakoca İtfaiye</item>
+        <item>Akçakoca Jandarma Komutanlığı</item>
+        <item>Akçakoca Emniyet Müdürlüğü</item>
+        <item>Akçakoca Veteriner Kliniği</item>
+    </string-array>
+
+    <string-array name="emergency_phones">
+        <item>03806114171</item>
+        <item>03806116914</item>
+        <item>03806114110</item>
+        <item>03806114005</item>
+        <item>03806114060</item>
+        <item>03806114969</item>
+        <item>03806189300</item>
+        <item>03806114551</item>
+        <item>05327135685</item>
+    </string-array>
+
+    <!-- Hotels' Names Array -->
+    <string-array name="hotels_names" formatted="false" >
+        <item>Bayraktar Otel</item>
+        <item>Diapolis Oteli</item>
+        <item>Esentepe Oteli</item>
+        <item>Mesen Otel</item>
+        <item>Otel Akçakoca</item>
+        <item>Otel Akçaşehir</item>
+        <item>Otel Vadi</item>
+        <item>Sezgin Oteli</item>
+        <item>Sky Tower Otel</item>
+        <item>Tuana Beach Otel</item>
+        <item>Turkuaz Beach Oteli</item>
+        <item>Yeni Çınar Otel</item>
+        <item>Yılmaz Otel</item>
+    </string-array>
+
+    <!-- Hotels' Address Array -->
+    <string-array name="hotels_address" formatted="false" >
+        <item>Osmaniye Mahallesi Çınar Sokak No: 2</item>
+        <item>Yalı Mahallesi İnönü Caddesi No: 30-32-34</item>
+        <item>Hacıyusuflar Mahallesi Koru Sokak No: 1</item>
+        <item>Edilli Köyü Mesen Sokak No: 40</item>
+        <item>Ayazlı Mahallesi Eredli Caddesi No: 33-35</item>
+        <item>Hacıyusuflar Mahallesi İstanbul Caddesi No: 182</item>
+        <item>Ayazlı Mahallesi Düzce Caddesi No: 20</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 44</item>
+        <item>Yalı Mahallesi İnönü Caddesi No: 42 Ceneviz Sokak No: 2</item>
+        <item>Hacıyusuflar Mahallesi Hüsnü Gonca Caddesi No: 4 Kale Yolu</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 77-73</item>
+        <item>Hacıyusuflar Mahallesi Bülbül Sokak No: 15/B</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 38</item>
+    </string-array>
+
+    <!-- Hotels' Coordinates Array -->
+    <string-array name="hotels_coordinates" formatted="false" >
+        <item>41.089517,31.129258</item>
+        <item>41.089047,31.118551</item>
+        <item>41.085229,31.104330</item>
+        <item>41.079507,31.076183</item>
+        <item>41.089816,31.144773</item>
+        <item>41.084289,31.103666</item>
+        <item>41.082833,31.176630</item>
+        <item>41.089593,31.129976</item>
+        <item>41.088688,31.117217</item>
+        <item>41.086617,31.103721</item>
+        <item>41.090080,31.139896</item>
+        <item>41.085036,31.103419</item>
+        <item>41.089546,31.129139</item>
+    </string-array>
+
+    <!-- Hotels' Phones Array -->
+    <string-array name="hotels_phones" formatted="false" >
+        <item>03806116677</item>
+        <item>03806116600</item>
+        <item>03806117879</item>
+        <item>03806114436</item>
+        <item>03806114525</item>
+        <item>03806119306</item>
+        <item>03806188484</item>
+        <item>03806114162</item>
+        <item>4447759</item>
+        <item>03806114335</item>
+        <item>03806115000</item>
+        <item>03806117003</item>
+        <item>03806114741</item>
+    </string-array>
+
+    <!-- Hotels' E-Mail Array -->
+    <string-array name="hotels_email" formatted="false" >
+        <item>info@bayraktarotel.com</item>
+        <item>-</item>
+        <item>-</item>
+        <item>info@mesenotel.com</item>
+        <item>info@otelakcakoca.com.tr</item>
+        <item>-</item>
+        <item>-</item>
+        <item>sezginotel@hotmail.com</item>
+        <item>info@skytowerhotel.com</item>
+        <item>oteltuana@gmail.com</item>
+        <item>-</item>
+        <item>yenicinar_otel@hotmail.com,rezervasyon@akcakocacinarotel.com</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- Hotels' Web Array -->
+    <string-array name="hotels_web" formatted="false" >
+        <item>http://www.bayraktarotel.com/</item>
+        <item>http://www.diapolishotelakcakoca.com.tr/</item>
+        <item>http://www.esentepeotel.com/</item>
+        <item>http://www.mesenotel.com/</item>
+        <item>http://www.otelakcakoca.com.tr</item>
+        <item>-</item>
+        <item>http://otelvadi.com.tr/</item>
+        <item>http://www.sezginotel.com/index.php</item>
+        <item>http://www.skytowerhotel.com/</item>
+        <item>http://www.oteltuana.com/</item>
+        <item>http://www.turkuazbeachotel.com/</item>
+        <item>http://akcakocacinarotel.com/</item>
+        <item>-</item>
+    </string-array>
+
+
+
+    <!-- Hostels' Name Array -->
+    <string-array name="hostels_names" formatted="false">
+        <item>Akçakoca Öğretmenevi</item>
+        <item>Bahar Pansiyon</item>
+        <item>Beş Yıldız Apart Pansiyon</item>
+        <item>Çamlık Pansiyon</item>
+        <item>Can Apart</item>
+        <item>Demir Pansiyon</item>
+        <item>Deniz Feneri Pansiyon</item>
+        <item>Diapolis Apartları</item>
+        <item>Doğus Pansiyon</item>
+        <item>Emel Pansiyon</item>
+        <item>Hostel Mimoza</item>
+        <item>Kar Pansiyon</item>
+        <item>Mutlu Pansiyon</item>
+        <item>Name Pansiyon</item>
+        <item>Pandul Pansiyon</item>
+        <item>Poyraz Pansiyon</item>
+        <item>Prestij Apart</item>
+        <item>Sağlam Pansiyon</item>
+        <item>Sahil Pansiyon</item>
+        <item>Şahin Pansiyon</item>
+        <item>Tunç Pansiyon</item>
+    </string-array>
+
+    <!-- Hostels' Address Array -->
+    <string-array name="hostels_address" formatted="false">
+        <item>Hacıyusuflar Mahallesi İstanbul Caddesi No: 152</item>
+        <item>Osmaniye Mahallesi Çınar Sokak No: 4</item>
+        <item>Ayazlı Mahallesi İzgi Sokak No: 14</item>
+        <item>Karaburun Mücavir Köyü 101 Sokak No: 24</item>
+        <item>Hacıyusuflar Mahallesi Anıt Sokak No: 10</item>
+        <item>Mücavir Karaburun 2 Sokak No: 54</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 92</item>
+        <item>Hacıyusuflar Mahallesi Bülbül Sokak No: 11</item>
+        <item>Osmaniye Mahallesi 2 Sokak No: 11</item>
+        <item>Ayazlı Mahallesi Ankara Caddesi No: 39</item>
+        <item>Cumhuriyet Mahallesi Yanmaz Sokak No: 12 Esentepe Mevkii</item>
+        <item>Mücavir Melenağzı Köyü 2 Sokak No: 124</item>
+        <item>Ayazlı Mahallesi Çınar Sokak No: 1A</item>
+        <item>Osmaniye Mahallesi Karabekir Caddesi No: 27/1</item>
+        <item>Osmaniye Mahallesi Gençlik Sokak No: 4</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 112</item>
+        <item>Osmaniye Mahallesi Ankara Caddesi No: 48</item>
+        <item>Akçakoca İlçesi</item>
+        <item>Mücavir Karaburun Köyü 101 Sokak No: 17</item>
+        <item>Yalı Mahallesi Pazar Sokak No 9 </item>
+        <item>Ayazlı Mahallesi Deniz Sokak No: 6</item>
+    </string-array>
+
+    <!-- Hostels' Coordinates Array -->
+    <string-array name="hostels_coordinates" formatted="false">
+        <item>41.087299,31.106872</item>
+        <item>41.089496,31.129255</item>
+        <item>41.083940,31.172353</item>
+        <item>41.085942,31.120374</item>
+        <item>41.086761,31.099622</item>
+        <item>41.072198,31.010236</item>
+        <item>41.089987,31.137975</item>
+        <item>41.084886,31.102992</item>
+        <item>41.089783,31.139535</item>
+        <item>41.089574,31.130848</item>
+        <item>41.087099,31.111275</item>
+        <item>41.072520,31.000175</item>
+        <item>41.089793,31.129434</item>
+        <item>41.087682,31.140651</item>
+        <item>41.089964,31.138982</item>
+        <item>41.089944,31.138724</item>
+        <item>41.089138,31.130336</item>
+        <item>41.090898,31.151096</item>
+        <item>41.072970,31.016596</item>
+        <item>41.089299,31.123000</item>
+        <item>41.095607,31.187216</item>
+    </string-array>
+
+    <!-- Hostels' Phones Array -->
+    <string-array name="hostels_phones" formatted="false">
+        <item>03806119279</item>
+        <item>03806114535</item>
+        <item>03806188100</item>
+        <item>03806224132</item>
+        <item>03806119665</item>
+        <item>03806286261</item>
+        <item>03806117711</item>
+        <item>03806118939</item>
+        <item>03806117733</item>
+        <item>03806114682</item>
+        <item>03806114545</item>
+        <item>03806286223</item>
+        <item>03806116655</item>
+        <item>03806117111</item>
+        <item>03806116284</item>
+        <item>03806114098</item>
+        <item>03806116431</item>
+        <item>05337285087</item>
+        <item>03806286237</item>
+        <item>03806112484</item>
+        <item>03806187160</item>
+    </string-array>
+
+    <!-- Hostels' Email Array -->
+    <string-array name="hostels_email" formatted="false">
+        <item>akcakocaogretmenevi@hotmail.com</item>
+        <item>-</item>
+        <item>hakan7501@hotmail.com</item>
+        <item>-</item>
+        <item>canapartpansiyon@gmail.com</item>
+        <item>-</item>
+        <item>info@akcakocaapartotel.com</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>apartname@hotmail.com</item>
+        <item>bilgi@pandulpansiyon.com</item>
+        <item>-</item>
+        <item>info@prestijapart.com</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- Hostels' Web Array -->
+    <string-array name="hostels_web" formatted="false">
+        <item>http://akcakoca-ogretmenevi.com/wp/</item>
+        <item>http://www.akcakocabaharpansiyon.com/</item>
+        <item>http://www.akcakocabesyildiz.com/</item>
+        <item>-</item>
+        <item>http://www.canapart.net</item>
+        <item>https://tr-tr.facebook.com/DEM%C4%B0R-PANS%C4%B0YON-198685383535225/timeline/</item>
+        <item>http://akcakocaapartotel.com</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>http://www.saklibahcehostelmimoza.com/</item>
+        <item>http://www.kartatilkoyu.net</item>
+        <item>-</item>
+        <item>http://www.apartname.com</item>
+        <item>http://www.pandulpansiyon.com/</item>
+        <item>http://www.akcakocapoyrazotel.com/index.php</item>
+        <item>http://www.prestijapart.com/</item>
+        <item>-</item>
+        <item>-</item>
+        <item>http://www.akcakocasahinpansiyon.com/</item>
+        <item>https://www.facebook.com/TUN%C3%87-MOTEL-624974664285532/timeline/</item>
+    </string-array>
+
+
+    <!-- Resorts' Name Array -->
+    <string-array name="resorts_names" formatted="false">
+        <item>Al-Sa Tatil Köyü</item>
+    </string-array>
+
+    <!-- Resorts' Address Array -->
+    <string-array name="resorts_address" formatted="false">
+        <item>Mücavir Melenağzı Köyü 2 Sokak No: 130</item>
+    </string-array>
+
+    <!-- Resorts' Coordinate Array -->
+    <string-array name="resorts_coordinates" formatted="false">
+        <item>41.071827,30.999377</item>
+    </string-array>
+
+    <!-- Resorts' Phone Array -->
+    <string-array name="resorts_phones" formatted="false">
+        <item>03806286444</item>
+    </string-array>
+
+    <!-- Resorts' Email Array -->
+    <string-array name="resorts_email" formatted="false">
+        <item>-</item>
+    </string-array>
+
+    <!-- Resorts' Web Array -->
+    <string-array name="resorts_web" formatted="false">
+        <item>http://www.alsatatilkoyu.com/</item>
+    </string-array>
+
+
+
+    <!-- Bars' Names Array -->
+    <string-array name="bars_names" formatted="false" >
+        <item>1010 Cafe Bistro</item>
+        <item>Çakıl Disco Bar</item>
+        <item>Çatı Cafe Pub</item>
+        <item>Great Bar</item>
+        <item>Horon Bar</item>
+        <item>Marina Bar</item>
+    </string-array>
+
+    <!-- Bars' Address Array -->
+    <string-array name="bars_address" formatted="false" >
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 44/1</item>
+        <item>Mücavir Karaburun Köyü 103 Sokak No: 2</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 36A,36B</item>
+        <item>Yalı Mahallesi İnönü Caddesi No: 4</item>
+        <item>Yalı Mahallesi Misafir Sokak No: 28</item>
+        <item>Yalı Mahallesi Misafir Sokak No: 36</item>
+    </string-array>
+
+    <!-- Bars' Coordinates Array -->
+    <string-array name="bars_coordinates" formatted="false" >
+        <item>41.089582,31.130116</item>
+        <item>41.072800,31.015566</item>
+        <item>41.089596,31.128833</item>
+        <item>41.088701,31.121296</item>
+        <item>41.089168,31.122365</item>
+        <item>41.089245,31.121996</item>
+    </string-array>
+
+    <!-- Bars' Phone Array -->
+    <string-array name="bars_phones" formatted="false" >
+        <item>03806118888</item>
+        <item>-</item>
+        <item>03806118343</item>
+        <item>-</item>
+        <item>-</item>
+        <item>03806114010</item>
+    </string-array>
+
+    <!-- Bars' Email Array -->
+    <string-array name="bars_email" formatted="false" >
+        <item>cemilguzel@yahoo.com</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- Bars' Web Array -->
+    <string-array name="bars_web" formatted="false" >
+        <item>http://www.1010cafebistro.com/</item>
+        <item>https://www.facebook.com/pages/Karaburun-Cak%C4%B1l-D%C4%B1sko-Bar/181281185387989</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+
+
+    <!-- Cafes' Names Array -->
+    <string-array name="cafes_names" formatted="false" >
+        <item>Cafe Altyazı</item>
+        <item>Bahçe Cafe</item>
+        <item>Cadde Cafe</item>
+        <item>Çınar Cafe</item>
+        <item>Değirmen Cafe</item>
+        <item>Erdeniz Cafe</item>
+        <item>Karamel Cafe</item>
+        <item>Kardelen Cafe</item>
+        <item>Köşem Cafe</item>
+        <item>Mola Cafe Restaurant</item>
+        <item>Rocca Cafe</item>
+        <item>Şahane Cafe</item>
+        <item>Turan Pasta Cafe</item>
+        <item>Tutaste Cafe</item>
+        <item>Undankale Bakery</item>
+    </string-array>
+
+    <!-- Cafes' Address Array -->
+    <string-array name="cafes_address" formatted="false" >
+        <item>Cumhuriyet Mahallesi Park Caddesi No: 143A</item>
+        <item>Osmaniye Mahallesi Kumlu Sokak No: 1</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 46A</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 42A</item>
+        <item>Hacıyusuflar Mahallesi İstanbul Caddesi No: 219</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 104A</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 52B</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 66F</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 40</item>
+        <item>Ayazlı Mahallesi Atatürk Caddesi No: 134</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 60A</item>
+        <item>Cumhuriyet Mahallesi Park Caddesi No: 121A</item>
+        <item>Yalı Mahallesi Bahadır Yalçın Caddesi No: 40B</item>
+        <item>Ayazlı Mahallesi Kayabaşı Caddesi No: 12B</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 47</item>
+    </string-array>
+
+    <!-- Cafes' Coordinates Array -->
+    <string-array name="cafes_coordinates" formatted="false" >
+        <item>41.088241,31.112087</item>
+        <item>41.090285,31.134667</item>
+        <item>41.089579,31.130096</item>
+        <item>41.089579,31.129610</item>
+        <item>41.086975,31.115182</item>
+        <item>41.089863,31.138296</item>
+        <item>41.089614,31.130963</item>
+        <item>41.089917,31.132456</item>
+        <item>41.089536,31.129488</item>
+        <item>41.085697,31.177855</item>
+        <item>41.089688,31.131486</item>
+        <item>41.088110,31.114675</item>
+        <item>41.087126,31.124169</item>
+        <item>41.091004,31.148496</item>
+        <item>41.090097,31.138236</item>
+    </string-array>
+
+    <!-- Cafes' Phones Array -->
+    <string-array name="cafes_phones" formatted="false" >
+        <item>03806114080</item>
+        <item>05335241902</item>
+        <item>03806115900</item>
+        <item>05326240059</item>
+        <item>03806112478</item>
+        <item>03806113315</item>
+        <item>03806114643</item>
+        <item>03806113636</item>
+        <item>03806114403</item>
+        <item>03806189898</item>
+        <item>05369344845</item>
+        <item>03806114616</item>
+        <item>03806117171</item>
+        <item>05378511954</item>
+        <item>05332791688</item>
+    </string-array>
+
+    <!-- Cafes' Email Array -->
+    <string-array name="cafes_email" formatted="false" >
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- Cafes' Web Array -->
+    <string-array name="cafes_web" formatted="false" >
+        <item>-</item>
+        <item>-</item>
+        <item>http://caddeakcakoca.com/</item>
+        <item>http://cinarcafe.net/</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>http://www.undankale.com</item>
+    </string-array>
+
+
+
+    <!-- Hospitals' Names Array -->
+    <string-array name="hospitals_names" formatted="false" >
+        <item>Akçakoca Devlet Hastanesi</item>
+        <item>1 Nolu Sağlık Ocağı</item>
+        <item>2 Nolu Sağlık Ocağı</item>
+    </string-array>
+
+    <!-- Hospitals' Address Array -->
+    <string-array name="hospitals_address" formatted="false" >
+        <item>Cumhuriyet Mahallesi Park Caddesi No: 20</item>
+        <item>Osmaniye Mahallesi Yalın Sokak No: 1</item>
+        <item>Osmaniye Mahallesi Yalın Sokak No: 1</item>
+    </string-array>
+
+    <!-- Hospitals' Coordinates Array -->
+    <string-array name="hospitals_coordinates" formatted="false" >
+        <item>41.086975,31.115182</item>
+        <item>41.088022,31.126828</item>
+        <item>41.086991,31.142376</item>
+    </string-array>
+
+    <!-- Hospitals' Phones Array -->
+    <string-array name="hospitals_phones" formatted="false" >
+        <item>03806114005</item>
+        <item>03806114171</item>
+        <item>03806116914</item>
+    </string-array>
+
+    <!-- Hospitals' Email Array -->
+    <string-array name="hospitals_email" formatted="false" >
+        <item>info@akcakocadh.gov.tr</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- Hospitals' Web Array -->
+    <string-array name="hospitals_web" formatted="false" >
+        <item>http://www.akcakocadh.gov.tr/</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- Pharmacy' Names Array -->
+
+    <string-array name="pharmacy_names">
+        <item>Akçakoca Eczanesi</item>
+        <item>Büyük Eczane</item>
+        <item>Çuhallı Eczanesi</item>
+        <item>Hayat Eczanesi</item>
+        <item>Karadeniz Eczanesi</item>
+        <item>Meltem Eczanesi</item>
+        <item>Nimet Eczanesi</item>
+        <item>Seçkin Eczanesi</item>
+    </string-array>
+
+    <!-- Pharmacy' Address Array -->
+
+    <string-array name="pharmacy_address">
+        <item>Cumhuriyet Mahallesi Park Caddesi No: 23C</item>
+        <item>Yalı Mahallesi Atik Sokak No: 2A</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 146</item>
+        <item>Yalı Mahallesi Bahadır Yalçın Caddesi No: 26A</item>
+        <item>Cumhuriyet Mahallesi Park Caddesi No: 23A</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 107</item>
+        <item>Yalı Mahallesi İstanbul Caddesi No: 16B</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 107</item>
+        <item>Cumhuriyet Mahallesi İstanbul Caddesi No: 91A</item>
+    </string-array>
+
+    <!-- Pharmacy' Coordinates Array -->
+    <string-array name="pharmacy_coordinates">
+        <item>41.086620,31.116089</item>
+        <item>41.087401,31.125706</item>
+        <item>41.088021,31.140712</item>
+        <item>41.088402,31.123479</item>
+        <item>41.086555,31.116034</item>
+        <item>41.087567,31.142145</item>
+        <item>41.088143,31.122472</item>
+        <item>41.087669,31.117297</item>
+    </string-array>
+
+    <!-- Pharmacy' Phones Array -->
+
+    <string-array name="pharmacy_phones">
+        <item>03806116433</item>
+        <item>03806113523</item>
+        <item>03806119400</item>
+        <item>03806114572</item>
+        <item>03806117092</item>
+        <item>-</item>
+        <item>03806119344</item>
+        <item>03806113366</item>
+    </string-array>
+
+    <!-- Pharmacy' E-Mail Array -->
+
+    <string-array name="pharmacy_email">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+
+    </string-array>
+
+    <!-- Pharmacy' Web Array -->
+
+    <string-array name="pharmacy_web">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <!-- restaurant' Names Array -->
+
+    <string-array name="restaurant_names">
+        <item>Akbey Restaurant</item>
+        <item>Bahçe 2 Cafe Restaurant</item>
+        <item>Çapa Restaurant</item>
+        <item>Çardak Restaurant</item>
+        <item>Efran Restaurant</item>
+        <item>Hamsi Balık Restaurant</item>
+        <item>İskele Balık Restaurant</item>
+        <item>Kamelya Restaurant</item>
+        <item>Piri Reis Restaurant</item>
+        <item>Turkuaz Restaurant</item>
+        <item>Barınak Balık Lokantası</item>
+        <item>Bolu Kardeşler Lokantası</item>
+        <item>Cafe Mutfak</item>
+        <item>Çetinkaya Lokantası</item>
+        <item>Dalyan Balık Lokantası</item>
+        <item>Gaziantep Pide Salonu</item>
+        <item>Gözde Köfte Salonu</item>
+        <item>Hanımeli Mutfağı</item>
+        <item>Hülyam Lokantası</item>
+        <item>Kantin Pide Salonu</item>
+        <item>Mengen Sofrası</item>
+        <item>Mustafanın Yeri</item>
+        <item>Ömür Lokantası</item>
+        <item>Özkardeşler Lokantası</item>
+        <item>Yakamoz Balık Lokantası</item>
+    </string-array>
+
+    <!-- restaurant' Address Array -->
+
+    <string-array name="restaurant_address">
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 19</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 29</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 27</item>
+        <item>Ayazlı Mahallesi Ereğli Caddesi No: 251</item>
+        <item>Yalı Mahallesi İnönü Caddesi No: 8</item>
+        <item>Yalı Mahallesi Plaj Sokak No: 2</item>
+        <item>Yalı Mahallesi Plaj Sokak No: 16A</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 13</item>
+        <item>Yalı Mahallesi Plaj Sokak No: 16C</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 73/1</item>
+        <item>Yalı Mahallesi Plaj Sokak No: 18</item>
+        <item>Yalı Mahallesi Cumhuriyet Meydanı No: 5A</item>
+        <item>Yalı Mahallesi İskele Sokak No: 20A</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 96A</item>
+        <item>Yalı Mahallesi Misafir Sokak No: 8B</item>
+        <item>Yalı Mahallesi İnönü Caddesi No: 9B</item>
+        <item>Yalı Mahallesi Oto Sokak No: 1C</item>
+        <item>Ayazlı Mahallesi Ereğli Caddesi No: 112A</item>
+        <item>Yalı Mahallesi Oto Sokak No: 1L</item>
+        <item>Yalı Mahallesi Plaj Sokak No: 4</item>
+        <item>Osmaniye Mahallesi Atatürk Caddesi No: 64B</item>
+        <item>Osmaniye Mahallesi Kumlu Sokak No: 8A</item>
+        <item>Yalı Mahallesi Bahadır Yalçın Caddesi No: 25</item>
+        <item>Ayazlı Mahallesi Ereğli Caddesi No: 128A</item>
+        <item>Yalı Mahallesi Plaj Sokak No: 4</item>
+    </string-array>
+
+    <!-- restaurant' Coordinates Array -->
+    <string-array name="restaurant_coordinates">
+        <item>41.089872,31.128524</item>
+        <item>41.090010,31.131175</item>
+        <item>41.089942,31.130487</item>
+        <item>41.091882,31.187262</item>
+        <item>41.088776,31.120186</item>
+        <item>41.089318,31.119827</item>
+        <item>41.089320,31.121951</item>
+        <item>41.089860,31.126970</item>
+        <item>41.0814004,31.1096904</item>
+        <item>41.090218,31.139638</item>
+        <item>41.089259,31.122736</item>
+        <item>41.088762,31.122319</item>
+        <item>41.089200,31.122627</item>
+        <item>41.089832,31.137964</item>
+        <item>41.089327,31.123338</item>
+        <item>41.088533,31.121236</item>
+        <item>41.088553,31.123695</item>
+        <item>41.083981,31.173493</item>
+        <item>41.088851,31.123609</item>
+        <item>41.089269,31.123609</item>
+        <item>41.089807,31.131830</item>
+        <item>41.089936,31.136403</item>
+        <item>41.087732,31.124212</item>
+        <item>41.084546,31.175036</item>
+        <item>41.089236,31.119982</item>
+    </string-array>
+
+    <!-- restaurant' Phones Array -->
+
+    <string-array name="restaurant_phones">
+        <item>03806113233</item>
+        <item>03806115400</item>
+        <item>03806115757</item>
+        <item>03806187516</item>
+        <item>-</item>
+        <item>03806118866</item>
+        <item>03806112500</item>
+        <item>03806113033</item>
+        <item>03806112800</item>
+        <item>03806115000</item>
+        <item>03806118730</item>
+        <item>03806114145</item>
+        <item>05366740250</item>
+        <item>03806118615</item>
+        <item>03806119656</item>
+        <item>03806118607</item>
+        <item>03806118607</item>
+        <item>03806189010</item>
+        <item>03806112352</item>
+        <item>03806116131</item>
+        <item>03806113452</item>
+        <item>03806118484</item>
+        <item>03806112637</item>
+        <item>03806187234</item>
+        <item>03806118866</item>
+    </string-array>
+
+    <!-- restaurant' E-Mail Array -->
+
+    <string-array name="restaurant_email">
+        <item>-</item>
+        <item>-</item>
+        <item>info@capaakcakoca.com</item>
+        <item>info@akcakocacardak.com</item>
+        <item>-</item>
+        <item>-</item>
+        <item>info@iskelebalik.net</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>info@mustafaninyeri.com.tr</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- restaurant' Web Array -->
+
+    <string-array name="restaurant_web">
+        <item>http://www.ak-bey.com/</item>
+        <item>http://www.bahcecafe2.com/</item>
+        <item>http://www.capaakcakoca.com/</item>
+        <item>http://www.akcakocacardak.com/</item>
+        <item>-</item>
+        <item>-</item>
+        <item>http://www.iskelebalik.net/</item>
+        <item>http://www.akcakocakamelya.com/</item>
+        <item>-</item>
+        <item>http://www.turkuazbeachotel.com/default.asp</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>http://www.mustafaninyeri.com.tr/</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- plaj' Names Array -->
+
+    <string-array name="beaches_names">
+        <item>Akevler Mevkii Kemos Plajı</item>
+        <item>Akkaya Plajı</item>
+        <item>Beyhanlı Plajı</item>
+        <item>Çuhallı Plajı</item>
+        <item>Değirmenağzı Plajı</item>
+        <item>Edilli Ağzı Plajı</item>
+        <item>Kadınlar Plajı</item>
+        <item>Kalkın Plajı</item>
+        <item>Karaburun Plajı</item>
+        <item>Kale Plajı</item>
+        <item>Melenağzı Plajı</item>
+        <item>Paşalar Plajı</item>
+        <item>Tahirli Plajı</item>
+    </string-array>
+
+    <!-- plaj' Address Array -->
+
+    <string-array name="beaches_address">
+        <item>Ayazlı Mahallesi Orkide Sokak</item>
+        <item>Mücavir Akkaya Köyü Plajı</item>
+        <item>Mücavir Beyhanlı Köyü Plajı</item>
+        <item>Osmaniye Mahallesi Kumluk Sokak</item>
+        <item>Hacıyusuflar Mahallesi Hüsnü Gonca Caddesi </item>
+        <item>Mücavir Edilli Köyü</item>
+        <item>Hacıyusuflar Mahallesi Oğuz Sokak</item>
+        <item>Mücavir Kalkın Köyü</item>
+        <item>Mücavir Karaburun Köyü</item>
+        <item>Hacıyusuflar Mahallesi Hüsnü Gonca Caddesi</item>
+        <item>Mücavir Melenağzı Köyü</item>
+        <item>Mücavir Paşalar Köyü</item>
+        <item>Mücavir Tahirli Köyü</item>
+    </string-array>
+
+    <!-- plaj' Coordinates Array -->
+    <string-array name="beaches_coordinates">
+        <item>41.094706,31.187672</item>
+        <item>41.103628,31.248532</item>
+        <item>41.100477,31.230883</item>
+        <item>41.090524,31.140557</item>
+        <item>41.087249,31.103476</item>
+        <item>41.077665,31.068961</item>
+        <item>41.086407,31.094109</item>
+        <item>41.075872,31.043537</item>
+        <item>41.072803,31.013496</item>
+        <item>41.085346,31.091664</item>
+        <item>41.072072,30.998275</item>
+        <item>41.075909,31.025065</item>
+        <item>41.077334,31.065371</item>
+    </string-array>
+
+    <!-- plaj' Phones Array -->
+
+    <string-array name="beaches_phones">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- plaj' E-Mail Array -->
+
+    <string-array name="beaches_email">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- plaj' Web Array -->
+
+    <string-array name="beaches_web">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- mustsee' Names Array -->
+
+    <string-array name="mustsee_names">
+        <item>Ceneviz Kalesi</item>
+        <item>Kurugöl Kanyonu ve Şelalesi</item>
+        <item>Mehmet Arif Bey Köşkü</item>
+        <item>Özkök Kültür ve Sanat Evi</item>
+        <item>Sarıyayla Şelalesi</item>
+        <item>Fakıllı Mağarası</item>
+    </string-array>
+
+    <!-- mustsee' Address Array -->
+
+    <string-array name="mustsee_address">
+        <item>Hacıyusuflar Mahallesi Hüsnü Gonca Caddesi</item>
+        <item>Kurugöl Köyü</item>
+        <item>Osmaniye Mahallesi Resul Efendi Sokak No: 2</item>
+        <item>Osmaniye Mahallesi Özkök Sokak No: 2</item>
+        <item>Sarıyayla Köyü</item>
+        <item>Düzce ili Akçakoca İlçesi</item>
+    </string-array>
+
+    <!-- mustsee' Coordinates Array -->
+    <string-array name="mustsee_coordinates">
+        <item>41.085789,31.092955</item>
+        <item>41.0814004,31.1096904</item>
+        <item>41.087451,31.135020</item>
+        <item>41.089729,31.136840</item>
+        <item>41.0814004,31.1096904</item>
+        <item>41.0814004,31.1096904</item>
+    </string-array>
+
+    <!-- mustsee' Phones Array -->
+
+    <string-array name="mustsee_phones">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- mustsee' E-Mail Array -->
+
+    <string-array name="mustsee_email">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- mustsee' Web Array -->
+
+    <string-array name="mustsee_web">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- mosque' Names Array -->
+
+    <string-array name="historical_places_names">
+        <item>Hemşin Camii</item>
+        <item>Orhan Gazi Camii</item>
+    </string-array>
+
+    <!-- mosque' Address Array -->
+
+    <string-array name="historical_places_address">
+        <item>Hemşin Köyü</item>
+        <item>Çayağzı Köyü</item>
+    </string-array>
+
+    <!-- mosque' Coordinates Array -->
+    <string-array name="historical_places_coordinates">
+        <item>41.025481,31.023792</item>
+        <item>41.0814004,31.1096904</item>
+    </string-array>
+
+    <!-- mosque' Phones Array -->
+
+    <string-array name="historical_places_phones">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- mosque' E-Mail Array -->
+
+    <string-array name="historical_places_email">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- mosque' Web Array -->
+
+    <string-array name="historical_places_web">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- transportation' Names Array -->
+
+    <string-array name="transportation_names">
+        <item>Düzce Güven</item>
+        <item>Efe Tur</item>
+        <item>İstanbul Seyahat</item>
+        <item>Kamil Koç</item>
+        <item>Metro Turizm</item>
+        <item>Pamukkale Turizm</item>
+        <item>Ulusoy</item>
+        <item>Üstün Erçelik</item>
+    </string-array>
+
+    <!-- transportation' Address Array -->
+
+    <string-array name="transportation_address">
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+        <item>Ayazlı Mahallesi Terminal Caddesi No: 1</item>
+    </string-array>
+
+    <!-- transportation' Coordinates Array -->
+    <string-array name="transportation_coordinates">
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+        <item>41.086338,31.175388</item>
+    </string-array>
+
+    <!-- transportation' Phones Array -->
+
+    <string-array name="transportation_phones">
+        <item>03806118890</item>
+        <item>03806117272</item>
+        <item>03806117585</item>
+        <item>03806117585</item>
+        <item>03806118575</item>
+        <item>03806118890</item>
+        <item>03806118890</item>
+        <item>03806117585</item>
+    </string-array>
+
+    <!-- transportation' E-Mail Array -->
+
+    <string-array name="transportation_email">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <!-- transportation' Web Array -->
+
+    <string-array name="transportation_web">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+</resources>
